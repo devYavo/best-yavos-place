@@ -1,0 +1,166 @@
+.coolTitle {
+  font-family: "Workbench", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: oblique;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+}
+  
+
+:root {
+    --clr-dark: #060606;
+    --clr-light: #f1f5f9;
+}
+
+body {
+    border-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+    margin-inline: auto;
+    padding: 2px;
+    background-color: var(--clr-light);
+    color: var(--clr-dark);
+}
+
+h3 {
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: dotted underline;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-stretch: semi-expanded;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: 'rubik-scribble-regular';
+    font-stretch: expanded absolute;
+    font-size: 400%;
+    color: #ff0000dd;
+    border-radius: 10px;
+    text-shadow: -5px 5px 15px;
+    text-align: center;
+}
+
+.dark-mode {
+    --clr-light: #28069a;
+    --clr-dark: #f56720;
+}
+
+button:hover {
+    color: red;
+    border-radius: 10px;
+}
+
+button, video, #codeLanguagePic, .pics {
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px;
+}
+
+.link {
+    color: #4911f2;
+    text-decoration-thickness: 2px;
+    font-weight: bold;
+    text-shadow: 5px 3px 7px;
+}
+
+.link:hover {
+    color: red;
+    font-style: italic;
+}
+
+.question {
+    margin: 20px;
+    width: max-content;
+    border-width: auto;
+    background-color: #f1f599;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px;
+}
+
+.comment-section {
+    margin: 5px;
+}
+
+.comment-message {
+    margin: 4px;
+}
+
+#codeLanguagePic {
+    margin: 5px;
+}
+
+.pathList {
+    width: max-content;
+    border-radius: 10px;
+    background-color: gainsboro;
+    padding: 0 0 2px 2px;
+    box-shadow: 4px 4px 10px;
+}
+
+#headPics {
+    padding: 10px;
+    border-width: min-content;
+    border-radius: 10px;
+    background-color: lightblue;
+    background: linear-gradient(to top, navy, orange);
+}
+
+#manLaptop {
+    float: left;
+}
+
+#computerCode {
+    float: right;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    border-width: 50%;
+   }
+
+#questPath {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#openingParagraph {
+    display: flex;
+    
+
+}
+
+#danceClip {
+    margin-right: 5px;
+    float: left;
+}
+
+#codingDays {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    border: solid 2px rgb(152, 30, 30);
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+video {
+    margin-right: 5px;
+    float: right;
+}
+
+#themeToggle:hover {
+    background-color: black;
+    color: white;
+}
