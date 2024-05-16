@@ -15,7 +15,9 @@
 }
 
 body {
-    border-color: black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     max-width: 1200px;
     margin-inline: auto;
@@ -74,8 +76,9 @@ button, video, #codeLanguagePic, .pics {
     font-style: italic;
 }
 
-.question {
+.question-container {
     margin: 20px;
+    height: 690px;
     width: max-content;
     border-width: auto;
     background-color: #f1f599;
@@ -96,10 +99,10 @@ button, video, #codeLanguagePic, .pics {
 }
 
 .pathList {
-    width: max-content;
+    margin: 20px;
+    border-width: auto;
     border-radius: 10px;
     background-color: gainsboro;
-    padding: 0 0 2px 2px;
     box-shadow: 4px 4px 10px;
 }
 
@@ -158,6 +161,10 @@ button, video, #codeLanguagePic, .pics {
 video {
     margin-right: 5px;
     float: right;
+}
+
+#themeToggle {
+    max-width: 100px;
 }
 
 #themeToggle:hover {
