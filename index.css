@@ -78,7 +78,7 @@ button, video, #codeLanguagePic, .pics {
 
 .question-container {
     margin: 20px;
-    height: 690px;
+    height: max-content;
     width: max-content;
     border-width: auto;
     background-color: #f1f599;
